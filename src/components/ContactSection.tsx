@@ -111,8 +111,8 @@ export default function ContactSection() {
           </div>
 
           {/* Map Column */}
-          <div className="lg:col-span-7 flex flex-col justify-between space-y-4">
-            <div className="flex-1 rounded-2xl overflow-hidden border border-gray-100 shadow-xl h-[300px] lg:h-auto min-h-[380px] relative bg-brand-gray">
+          <div className="lg:col-span-7 flex flex-col justify-between space-y-4 w-full">
+            <div className="flex-1 rounded-2xl overflow-hidden border border-gray-100 shadow-xl h-[300px] sm:h-[350px] lg:h-auto min-h-[280px] sm:min-h-[380px] relative bg-brand-gray w-full">
               {/* Google Maps embed customized for Maryland, Ikeja, Lagos */}
               <iframe
                 title="Tender Grapes Schools Lagos Location Map"
