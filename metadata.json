@@ -1,0 +1,8 @@
+{
+  "name": "Tender Grapes Schools",
+  "description": "A modern, premium educational landing page for Tender Grapes Schools in Lagos, Nigeria. Supporting Creche, Nursery, Primary, and Secondary education admissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
