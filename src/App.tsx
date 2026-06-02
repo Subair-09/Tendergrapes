@@ -14,7 +14,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export default function App() {
   return (
-    <div id="school-landing-app" className="min-h-screen bg-white text-gray-800 antialiased font-sans selection:bg-brand-red selection:text-white">
+    <div id="school-landing-app" className="min-h-screen bg-white text-gray-800 antialiased font-sans selection:bg-brand-red selection:text-white overflow-x-hidden w-full max-w-full">
       {/* 1. Header Navigation */}
       <Navbar />
 

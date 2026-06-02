@@ -128,14 +128,14 @@ export default function ContactSection() {
             </div>
 
             {/* Driving Directions Helper */}
-            <div className="p-4 bg-brand-blue/10 border border-brand-blue/20 rounded-xl flex items-center justify-between text-xs text-brand-blue-dark">
+            <div className="p-4 bg-brand-blue/10 border border-brand-blue/20 rounded-xl flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-3 text-xs text-brand-blue-dark">
               <span>Looking for driving directions from Surulere, Victoria Island, or Lekki?</span>
               <a
                 id="maps-directions-link"
                 href="https://maps.google.com/?q=Maryland+Mall+Lagos"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-bold underline flex items-center gap-1 hover:text-brand-red shrink-0"
+                className="font-bold underline flex items-center justify-center gap-1 hover:text-brand-red shrink-0"
               >
                 Open in Apple/Google Maps
                 <ExternalLink size={12} />

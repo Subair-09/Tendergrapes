@@ -26,7 +26,7 @@ export default function FloatingWhatsApp() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.9, y: 15 }}
             transition={{ type: 'spring', stiffness: 260, damping: 20 }}
-            className="pointer-events-auto bg-white rounded-2xl shadow-xl border border-gray-100 p-4 mb-3 max-w-xs text-sm text-gray-700 relative text-right"
+            className="pointer-events-auto bg-white rounded-2xl shadow-xl border border-gray-100 p-4 mb-3 max-w-[calc(100vw-3rem)] sm:max-w-xs text-sm text-gray-700 relative text-right"
           >
             <button
               id="close-whatsapp-bubble"
